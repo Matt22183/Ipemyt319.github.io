@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAJU'STORE</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo de estilos CSS -->
+    <style>
+        /* Estilos CSS internos (opcional) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: skyblue;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background-color: #eee;
+        }
+        nav a:hover {
+            background-color: #ccc;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .main {
+            background-color: #fff;
+            float: left;
+            width: 70%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar {
+            background-color: #f0f0f0;
+            float: left;
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: skyblue;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .search-bar input[type="text"] {
+            flex: 1;
+            border: none;
+            outline: none;
+        }
+
+        .search-bar button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            padding: 5px 10px;
+            cursor: pointer;
+            align: center ;
+        }
+
+        .search-bar button:hover {
+            background-color: #0056b3;
+        }
+
+      .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid responsive */
+    gap: 2px; /* Espacio entre imágenes */
+}
+
+.galeria img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.galeria a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: inherit; /* Heredar color de texto */
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>MAJU'STORE</h1>
+    </header>
+    <nav>
+        
+        <a href="mujeres.html">mujeres</a>
+        <a href="hombres.html">hombres</a>
+        <a href="unisex.html">unisex</a>
+        <a href="calificación.html">calificanos</a>
+         <a href="registro.html">registrate</a>
+    </nav>
+
+    <div class="container" align="center">
+    <!-- Contenido que quieres centrar -->
+
+    <div class="search-bar">
+        <a href="remeras.html"></a>
+        <a href="adidas.html"></a>
+        <form action="pantalones.html" method="GET">
+        <input type="text" name="pantalones" placeholder="Buscar...">
+        <button type="submit" >Buscar</button> 
+    </form>  
+    </div>
+    
+    </div>
+    <div class="container">
+        <section class="main">
+            <h2>Nuevos ingresos invierno </h2>
+            <p>Ingresos para este invierno</p>
+           
+ <div class="galeria">
+          <a href="jackets.html">  <img src="..\ropai\campera20.jpg" alt="Descripción de la imagen 1">
+
+        </a>
+        <a href="gorros.html">
+            <img src="..\ropai\gorro13.jpg" alt="Descripción de la imagen 2">
+        </a>
+        <a href="adidas.html">
+            <img src="..\ropaim\green.jpg" alt="Descripción de la imagen 3">
+        </a>
+        <a href="guantes.html">
+            <img src="..\ropai\/glovesblue.jpg" alt="Descripción de la imagen 4">
+        </a>
+      
+        </section>
+        <aside class="sidebar" >
+            <h2>Otros productos de la tienda </h2>
+            <p>Aqui puedes ver otros productos que estan disponibles en nuestra tienda </p>
+           
+                    <a href="pantalones.html">  <img src="..\ropaim\/pantalon5.jpg" alt="Descripción de la imagen 1">
+                        <a href="remeras.html">  <img src="..\ropaim\/remera2.jpg" alt="Descripción de la imagen 1">
+                            <a href="accesorios.html">  <img src="..\ropai\/accesorio1.jpg" alt="Descripción de la imagen 1">
+                           
+                               
+
+        </aside>
+    </div>
+
+</body>
+</html>
